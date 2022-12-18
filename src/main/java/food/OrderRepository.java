@@ -1,10 +1,10 @@
 package food;
 
-import java.util.List;
+import java.util.UUID;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface OrderRepository extends CrudRepository<TacoOrder, Long>{
+public interface OrderRepository extends CrudRepository<TacoOrder, String>{
 	//TacoOrder save(TacoOrder order);
 	//List<TacoOrder> findByDeliveryZip(String deliveryZip);
 }
